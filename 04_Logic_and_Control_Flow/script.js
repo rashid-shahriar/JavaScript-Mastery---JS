@@ -61,3 +61,25 @@ switch (superHero) {
     console.log("Enter a valid superhero name");
     break;
 }
+
+// ternary operator
+
+// condition ? value if true : value if false
+const age = 18;
+
+age > 18 ? console.log("You are an adult") : console.log("You are a minor");
+
+//loops
+
+let i = 1;
+
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+
+// console.log("Loop ended");
+
+for (let j = 0 /*initialization*/; j < 10 /*condition*/; j++ /*increment*/) {
+  console.log(j);
+}
