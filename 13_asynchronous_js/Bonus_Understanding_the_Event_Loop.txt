@@ -1,0 +1,18 @@
+Welcome back! In the last lecture we wrote some synchronous and asynchronous code and found out that the asynchronous code behaves differently. And as I promised, now we will understand why the asynchronous code behaves like that. So, let's get started!
+
+We'll talk about The Javascript Runtime Environment and the Event Loop.
+
+The Javascript Runtime Environment
+All the javascript code that we write, asynchronous or synchronous, runs in a web browser, which is a Javascript runtime environment as a whole. This runtime environment consists of the Javascript Engine, the Web APIs and Job/Callback Queue. A very famous Javascript Engine is the Google's V8 Engine, which is used to develop Google Chrome and NodeJS.
+
+All of that just lays the foundations for what you need to know so that you can understand what the Event Loop is.
+
+Event Loop is a complex topic and for that reason, below this video, I'll put a link to the best lecture on Event Loop ever created. It lasts around 30 minutes, but it is definitely worth watching!
+
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
+
+Yes, so that is pretty much it. The Event Loop! Yes now we understand it. 👏 Pat yourself on the back, as not many Javascript developers completely understand the Event Loop, especially the beginners. So it's an achievement! But again, if you have any doubts, I would strongly advise you to go throughout the lecture again.
+
+If you don't fully understand the Event Loop but you know how to use promises, async/await and you know how asynchronous code works, then you're good to go!
+
+See you in the next lecture!
